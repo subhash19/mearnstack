@@ -1,0 +1,37 @@
+$body-bg: #eeeeee;
+$body-color: #242121;
+$font-family-sans-serif: "Poppins", sans-serif;
+$primary: #000000;
+
+
+
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+
+
+.bd-links {
+    overflow: auto;
+    font-weight: 600;
+}
+
+@media (min-width: 768px){
+    .bd-links {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 5rem;
+        display: block !important;
+        height: calc(100vh - 7rem);
+        padding-left: 0.25rem;
+        margin-left: -0.25rem;
+        overflow-y: auto;
+    }
+}
