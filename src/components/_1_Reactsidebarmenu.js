@@ -6,9 +6,9 @@ function Reactsidebarmenu() {
                     <ul className="list-unstyled mb-0 py-3 pt-md-1">
             
                     <li className="mb-1">
-                        <a to="/react/introduction">
+                        <NavLink to="/react/introduction">
                         Getting started
-                        </a>
+                        </NavLink>
 
                         <div>
                             <ul className="list-unstyled fw-normal pb-1 small">

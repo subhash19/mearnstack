@@ -19,30 +19,31 @@ function Routing() {
     <BrowserRouter>
       {/* JS */} 
       <Routes>
+        
         <Route path="/js" element={<IntroductionJS />} />
         <Route path="/js/introduction" element={<IntroductionJS />} />
-      </Routes>
+      
       
 
 
       {/* React */}
-      <Routes>
+      
         <Route path="/react" element={<Introduction />} />
         <Route path="/react/introduction" element={<Introduction />} />
         <Route path="/react/installation" element={<Installation />} />
         <Route path="/react/folder-structure" element={<FolderStructure />} />
-      </Routes>
+      
 
 
       {/* Node */} 
-      <Routes>
+      
         <Route path="/nodejs" element={<IntroductionNode />} />
         <Route path="/nodejs/introduction" element={<IntroductionNode />} />
-      </Routes>
+      
 
 
       {/* Mongo DB */} 
-      <Routes>
+      
         <Route path="/mongodb" element={<IntroductionMDB />} />
         <Route path="/mongodb/introduction" element={<IntroductionMDB />} />
       </Routes>
