@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
 //JS/
 import IntroductionJS from "../javaScript/_1_javascriptIntroduction";
 
