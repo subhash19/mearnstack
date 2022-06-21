@@ -1,3 +1,4 @@
+import Pretag from "../components/PretagAsCode";
 import Reactsidebarmenu from "../components/_1_Reactsidebarmenu";
 
 function FolderStructure() {
@@ -33,6 +34,13 @@ function FolderStructure() {
                 </code>
                 <h3>What is create-react-app</h3>
                 <p></p>
+
+                
+                <Pretag>
+                  {
+                    `<div class="abcg">sadasdasdas</div>`
+                  }
+                </Pretag>
                     
             </div>
         </div>
