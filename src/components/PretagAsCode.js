@@ -1,8 +1,10 @@
+import Highlight from 'react-highlight'
+
 const Pretag = (props) => {
     return (
-        
-            <pre><code>{`${props.children}`}</code></pre>
-       
+        <Highlight language={props.language}>
+            {`${props.children}`}
+        </Highlight>
     )
 }
 
