@@ -1,5 +1,6 @@
 import Pretag from "../components/PretagAsCode";
 import Reactsidebarmenu from "../components/_1_Reactsidebarmenu";
+import Highlight from "react-highlight";
 
 function FolderStructure() {
   return (
